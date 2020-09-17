@@ -2,8 +2,10 @@ body {
   background-color: #ffe680;
 }
 h1 {
-  font-size: 90px;
-  color: ;
+  font-size: 80px;
+  color: white;
+  font-family: Josefin Slab;
+  font-style: Semi-bold 600 italic;
 }
 h2 {
 
