@@ -1,16 +1,33 @@
 body {
-  background-color: #blue;
+  background-color: peru;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: Josefin Slab;
+  font-style: Semi-bold 600 italic;
+  margin: 50px;
 }
 h1 {
   font-size: 90px;
+  font-family: VT323;
   color: black;
 }
-
-
-h2 {
-
-
-}
 p {
-
+  font-size: 22px;
+  letter-spacing: .5px;
+  margin-top: 0;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:link {
+  color: olive;
+}
+a:visited {
+  color: maroon;
+}
+a:hover {
+  color: floralwhite;
+}
+a:active {
+  color: whitesmoke;
 }
