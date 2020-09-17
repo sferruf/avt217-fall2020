@@ -1,5 +1,8 @@
 body {
   background-color: #ffe680;
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin: 50px;
 }
 h1 {
   font-size: 80px;
@@ -8,12 +11,30 @@ h1 {
   font-style: Semi-bold 600 italic;
 }
 h2 {
-
-
-}
-div {
-  border: double;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0;
 }
 p {
-
+  font-size: 22px;
+  letter-spacing: .5px;
+  margin-top: 0;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:link {
+  color: tomato;
+}
+a:visited {
+  color: dodgerblue;
+  /* color: #49af9e;
+  color: rgb(3,43,250); */
+}
+a:hover {
+  color: whitesmoke;
+}
+a:active {
+  color: whitesmoke;
 }
