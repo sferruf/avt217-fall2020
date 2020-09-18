@@ -19,10 +19,10 @@ a {
   text-decoration: none; /* this gets rid of the default underline */
 }
 a:link {
-  color: olive;
+  color: maroon;
 }
 a:visited {
-  color: maroon;
+  color: olive;
 }
 a:hover {
   color: floralwhite;
