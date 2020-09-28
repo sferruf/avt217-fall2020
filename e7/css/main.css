@@ -1,25 +1,43 @@
 body {
-  background-color: lavendarblush;
-  color: maroon;
+  background-color: paleturquoise;
   font-size:20px;
-  font-family:Libre Baskerville;
+  font-family: Libre Baskerville;
   font-style: regular 400;
-  margin: 50px;
 }
 h1 {
-  letter-spacing: 5px;
-  font-size:
-  font-weight:
-  color:
+  letter-spacing: 20px;
+  color: dodgerblue;
+  margin-left: 50px;
 }
 h2 {
-
+  letter-spacing: 10px;
+  color: navy;
+  margin-left: 50px;
 }
 h3 {
-
+  letter-spacing: 10px;
+  color: navy;
+  margin-left: 50px;
+}
+h4 {
+  letter-spacing: 10px;
+  font-weight: bold 700;
+  color: dodgerblue;
+  margin-left: 50px;
+}
+h5 {
+  letter-spacing: 10px;
+  font-weight: bold 700;
+  color: white;
+  margin-left: 50px;
+}
+ul li {
+  color: white;
+  margin-left: 150px;
 }
 p {
-  font-size:
-  letter-spacing:
-  margin: 10px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-left: 100px;
+  color: navy;
 }

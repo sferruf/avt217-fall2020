@@ -6,6 +6,8 @@ body {
   font-style: Semi-bold 600 italic;
   margin-top: 100px;
   margin-left: 200px;
+  margin-bottom: 150px;
+  margin-right: 90px;
 }
 .exercise {
   margin: 0;
@@ -33,7 +35,7 @@ a:link {
   color: maroon;
 }
 a:visited {
-  color: olive;
+  color: skyblue;
 }
 a:hover {
   color: floralwhite;
