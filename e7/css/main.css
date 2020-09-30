@@ -1,43 +1,43 @@
 body {
-  background-color: paleturquoise;
+  background-color: plum;
   font-size:20px;
   font-family: Libre Baskerville;
   font-style: regular 400;
 }
 h1 {
   letter-spacing: 20px;
-  color: dodgerblue;
+  color: papayawhip;
   margin-left: 50px;
 }
 h2 {
   letter-spacing: 10px;
-  color: navy;
+  color: lemonchiffon;
   margin-left: 50px;
 }
 h3 {
   letter-spacing: 10px;
-  color: navy;
+  color: lemonchiffon;
   margin-left: 50px;
 }
 h4 {
   letter-spacing: 10px;
   font-weight: bold 700;
-  color: dodgerblue;
+  color: lemonchiffon;
   margin-left: 50px;
 }
 h5 {
   letter-spacing: 10px;
   font-weight: bold 700;
-  color: white;
+  color: mediumvioletred;
   margin-left: 50px;
 }
 ul li {
-  color: white;
+  color: mediumvioletred;
   margin-left: 150px;
 }
 p {
   font-size: 20px;
   letter-spacing: 5px;
   margin-left: 100px;
-  color: navy;
+  color: indigo;
 }
