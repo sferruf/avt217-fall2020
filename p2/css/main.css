@@ -1,0 +1,41 @@
+body {
+  font-family: Chelsea Market;
+  font-size: 20px;
+
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+  display: inline;
+}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: red;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: skyblue;
+}
+a:hover {
+  color: floralwhite;
+}
+a:active {
+  color: whitesmoke;
+}
+li a:hover:not (.active) {
+  background-color: maroon;
+} /* note: not really sure about these 2 last things for li a */
+.active {
+  background-color: #009933;
+}
