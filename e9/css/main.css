@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: ;
+  marigin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 130vw;
+  margin: -50px -15vw;
+}
+.shape1 {
+  background-color: ;
+  width:
+  height
+}
+div {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  float: left;
+}
