@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: ;
   marigin: 0;
   overflow-x: hidden;
 }
@@ -10,15 +9,199 @@ main {
   width: 130vw;
   margin: -50px -15vw;
 }
-.shape1 {
-  background-color: ;
-  width:
-  height
-}
-div {
-  background-color: red;
-  width: 400px;
-  height: 400px;
-  margin: 50px;
+#p1 .shape1 {
+  background-color: indianred;
+  width: 120px;
+  height: 120px;
+  margin: -50px;
   float: left;
+  opacity: .85;
+  border-radius: 50%;
+}
+#p1 .shape2{
+  background-color: darkorange;
+  width: 100px;
+  height: 200px;
+  margin: 5px -15px;
+  float: left;
+  opacity: .75;
+  transform: rotate(20deg);
+}
+#p1 .shape3{
+  width: 125px;
+  height: 150px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 125px solid purple;
+  margin: -65px -45px;
+  float: left;
+  opacity: .75;
+}
+#p2 .shape1 {
+  background-color: #F9858B;
+  width: 120px;
+  height: 120px;
+  margin: -25px;
+  float: left;
+  opacity: .5;
+  border-radius: 50%;
+}
+#p2 .shape2{
+  background-color: #ED335F;
+  width: 120px;
+  height: 120px;
+  margin: -25px;
+  float: left;
+  opacity: .5;
+  border-radius: 50%;
+}
+#p2 .shape3{
+  background-color: #F7C5CC;
+  width: 120px;
+  height: 120px;
+  margin: -25px;
+  float: left;
+  opacity: .5;
+  border-radius: 50%;
+}
+#p2 .shape4{
+  background-color: #761137;
+  width: 120px;
+  height: 120px;
+  margin: -25px;
+  float: left;
+  opacity: .5;
+  border-radius: 50%;
+}
+#p3 .shape1 {
+  background-color: #FEE5B5;
+  width: 50px;
+  height: 200px;
+  transform: rotate(40deg);
+  margin: -15px -45px;
+  float: left;
+  opacity: .75;
+}
+#p3 .shape2{
+  width: 100px;
+  height: 150px;
+  transform: rotate(40deg);
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 125px solid #FECCA8;
+  margin: -15px;
+  float: left;
+  opacity: .75;
+}
+#p3 .shape3{
+  background-color: #6FC9E7;
+  width: 50px;
+  height: 200px;
+  transform: rotate(40deg);
+  margin: -45px;
+  float: left;
+  opacity: .75;
+}
+#p3 .shape4{
+  background-color: #99D4E9;
+  width: 50px;
+  height: 50px;
+  transform: rotate(40deg);
+  margin: -45px;
+  float: left;
+  opacity: .75;
+  border-radius: 50%
+}
+#p3 .shape5{
+  width: 100;
+	height: 150;
+  transform: rotate(40deg);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 125px solid #B3DEEF;
+  margin: -45px;
+  float: left;
+  opacity: .75;
+}
+#p3 .shape6{
+  background-color: #CDEAF7;
+  width: 200px;
+  height: 50px;
+  transform: rotate(40deg);
+  margin: -45px;
+  float: left;
+  opacity: .75;
+}
+#p4 .shape1 {
+  width: 125px;
+	height: 150px;
+	border-top: 100px solid transparent;
+	border-left: 100px solid #FFDDE2FF;
+	border-bottom: 125px solid transparent;
+  margin: -65px -45px;
+  float: left;
+  opacity: .90;
+}
+#p4 .shape2{
+  width: 125px;
+	height: 150px;
+	border-top: 100px solid transparent;
+	border-left: 100px solid #FAA094FF;
+	border-bottom: 125px solid transparent;
+  margin: -65px -45px;
+  float: left;
+  opacity: .90;
+}
+#p4 .shape3{
+  width: 125px;
+	height: 150px;
+	border-top: 100px solid transparent;
+	border-left: 100px solid #9ED9CCFF;
+	border-bottom: 125px solid transparent;
+  margin: -65px -45px;
+  float: left;
+  opacity: .90;
+}
+#p4 .shape4{
+  width: 125px;
+	height: 150px;
+	border-top: 100px solid transparent;
+	border-left: 100px solid #008C76FF ;
+	border-bottom: 125px solid transparent;
+  margin: -65px -45px;
+  float: left;
+  opacity: .90;
+}
+#p5 .shape1{
+  background-color: #CE9466;
+  width: 25px;
+	height: 150px;
+  margin: -20px -35px;
+  float: left;
+  opacity: .70;
+}
+#p5 .shape2{
+  background-color: #4D2B1E;
+  width: 120px;
+  height: 120px;
+  margin: -50px;
+  float: left;
+  opacity: .70;
+  border-radius: 50%;
+}
+#p5 .shape3{
+  background-color: #A06A4A;
+  width: 50px;
+	height: 150px;
+  margin: -20px -35px;
+  float: left;
+  opacity: .70;
+}
+#p5 .shape4{
+  background-color: #281915;
+  width: 100px;
+	height: 100px;
+  margin-left: -20px -35px;
+  float: left;
+  opacity: .70;
 }
