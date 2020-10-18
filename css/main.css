@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+html {
+
+}
 body {
   background-color: palevioletred;
   color: whitesmoke;
@@ -8,6 +14,19 @@ body {
   margin-left: 200px;
   margin-bottom: 150px;
   margin-right: 90px;
+}
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+}
+.col {
+  width: 50%
+  float: left;
+  display: flow-root;
 }
 .exercise {
   margin: 0;
@@ -26,6 +45,9 @@ h1 {
   font-size: 4rem;
   font-weight: bold;
   color: white;
+}
+h2{
+
 }
 p {
   font-size: 22px;
