@@ -1,14 +1,38 @@
 * {
   box-sizing: border-box;
 }
+@-ms-viewport{
+  width: device-width;
+}
 body {
-  marigin: 0;
+  margin: 100px;
+  text-align: center;
   overflow-x: hidden;
+  background-color: orange;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 120px;
+  color: purple;
+}
+header {
+  width: 75vw;
+  margin: 25px auto;
 }
 main {
   width: 130vw;
   margin: -50px -15vw;
 }
+h1{
+  letter-spacing: 1px
+  text-align: center;
+  font-size: 200px;
+}
+ul {
+  list-style-type: none;
+  letter-spacing: .5px;
+  margin: 0;
+  padding: 0;
+}
+
 #p1 .shape1 {
   background-color: indianred;
   width: 120px;

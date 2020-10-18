@@ -1,19 +1,15 @@
 * {
   box-sizing: border-box;
 }
+@-ms-viewport{
+  width: device-width;
+}
 html {
-
+ font-size: 16px;
 }
 body {
   background-color: palevioletred;
-  color: whitesmoke;
-  font-size: 30px;
   font-family: Josefin Slab;
-  font-style: Semi-bold 600 italic;
-  margin-top: 100px;
-  margin-left: 200px;
-  margin-bottom: 150px;
-  margin-right: 90px;
 }
 header {
   width: 75vw;
@@ -22,37 +18,48 @@ header {
 main {
   width: 75vw;
   margin: 25px auto;
+  display: flow-root;
 }
 .col {
-  width: 50%
+  width: 50%;
   float: left;
-  display: flow-root;
 }
 .exercise {
   margin: 0;
   background-color: white;
-}
-@media screen and (max-width; 1000px)
-body {
-  background-color: lightpink
-}
-img {
-  max-width: 100%;
-}
-h1 {
+  } /*@media screen and (max-width; 1000px)
+  body {
+    background-color: lightpink
+  }
+  img {
+    max-width: 100%;
+  }*/
+
+h1{
   text-transform: uppercase;
   letter-spacing: 1px
+  text-align: left;
   font-size: 4rem;
-  font-weight: bold;
-  color: white;
+  font-family: Josefin Slab;
+  font-weight: 700;
 }
 h2{
-
+ font-size: 2rem;
+ text-align: left;
+ font-family: Josefin Slab;
+ font-weight: 700;
 }
-p {
+ul {
+  list-style-type: none;
   font-size: 22px;
   letter-spacing: .5px;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  text-align: left;
 }
 a {
   text-decoration: none; /* this gets rid of the default underline */
@@ -68,4 +75,19 @@ a:hover {
 }
 a:active {
   color: whitesmoke;
+}
+@media screen and (max-width: 961px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 }
