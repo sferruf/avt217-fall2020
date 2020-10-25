@@ -20,3 +20,92 @@ body {
 .black {
   background-color: #333333;
 }
+.grid {
+  width: 700px;
+  display: flow-root;
+  margin: 50px auto 0px;
+}
+.header, .skinny, .column {
+  background-color: tomato;
+}
+.header {
+  width: 680px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+}
+.skinny {
+  width: 680px;
+  height: 25px;
+  float: left;
+  margin: 5px;
+}
+.column {
+  width: 220px;
+  height: 500px;
+  float: left;
+  margin: 5px;
+}
+.blog {
+  width: 1000px;
+  display: flow-root;
+  margin: 100px 50px 0px 0px;
+}
+.header2, .post, .square, .comment {
+  background-color: tomato;
+}
+.header2 {
+  width: 905px;
+  height: 175px;
+  float: left;
+  margin: 15px 0px 100px 50px;
+}
+.post {
+  width: 700px;
+  height: 500px;
+  float: left;
+  margin: 5px 5px 5px 50px;
+}
+.rectangle {
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin: 5px;
+}
+.comment {
+  width: 700px;
+  height: 60px;
+  float: left;
+  margin: 5px 50px 100px;
+}
+.tennis {
+  width: 700px;
+  display: flow-root;
+  margin: 100px 50px 0px 50px;
+}
+.leftside, .rightside, .footer, .court {
+  background-color: tomato;
+}
+.leftside {
+  width: 80px;
+  height: 280px;
+  float: left;
+  margin: 1px 1px 1px 50px;
+}
+.rightside {
+  width: 80px;
+  height: 280px;
+  float: right;
+  margin: 1px 1px 1px;
+}
+.footer {
+  width: 362px;
+  height: 100px;
+  float: left;
+  margin: 1px;
+}
+.court {
+  width: 170px;
+  height: 170px;
+  float: left;
+  margin: 1px;
