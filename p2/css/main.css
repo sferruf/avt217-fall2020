@@ -5,11 +5,17 @@ body {
   background-color: #D0AE75;
   text-align: center;
   margin: 20px;
+  line-height: 40px;
+  line-spacing: 15px;
 }
 header {
   font-family: 'Playfair Display', serif;
   color: black;
   background-color: #FFFDED;
+}
+nav {
+  text-align: right;
+  margin: 0px;
 }
 .border {
   width: 1600px;
@@ -39,7 +45,9 @@ h2 {
   text-align: center;
 }
 h3 {
-
+  font-family: 'Playfair Display', serif;
+  color: black;
+  text-align: center;
 }
 h4 {
 
@@ -47,11 +55,19 @@ h4 {
 h5{
 
 }
+  /*#menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: Medium 500;
+    font-size: 30px;
+    color: black;
+    float: left;
+    text-align: left;
+}*/
 footer {
   background-color: #817650;
   font-family: 'Roboto', sans-serif;
   font-weight: Bold 700;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   height: 200px
   text-align: center;
@@ -60,13 +76,12 @@ img {
   max-width: 100%;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  margin: 20px;
+  padding: 5px;
+  float: left;
 }
 li {
-  float: right;
+  float: left;
   display: inline;
 }
 li a {
@@ -79,7 +94,6 @@ a {
 }
 a:link {
   color: black;
-  background-color: white;
 }
 a:visited {
   color: black;
