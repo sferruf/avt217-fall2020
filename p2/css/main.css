@@ -1,7 +1,60 @@
 body {
-  font-family: Chelsea Market;
-  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+  background-color: #D0AE75;
+  text-align: center;
+  margin: 20px;
+}
+header {
+  font-family: 'Playfair Display', serif;
+  color: black;
+  background-color: #FFFDED;
+}
+.border {
+  width: 1600px;
+  height: 75px;
+}
+.green {
+  background-color: #1FAD1A;
+  float: left;
+  width: 500px;
+  height: 75px;
+}
+.white {
+  background-color: white;
+  float: left;
+  width: 500px;
+  height: 75px;
+}
+.red {
+  background-color: #E61B1B;
+  float: left;
+  width: 500px;
+  height: 75px;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: center;
+}
+h3 {
 
+}
+h4 {
+
+}
+h5{
+
+}
+footer {
+  background-color: #817650;
+  font-family: 'Roboto', sans-serif;
+  font-weight: Bold 700;
+  font-size: 40px;
+  color: white;
+  height: 200px
+  text-align: center;
 }
 img {
   max-width: 100%;
@@ -17,25 +70,26 @@ li {
   display: inline;
 }
 li a {
-  display: block;
   padding: 8px;
-  background-color: red;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+  font-family: 'Playfair Display', serif;
+  color: black;
 }
 a:link {
   color: black;
+  background-color: white;
 }
 a:visited {
-  color: green;
+  color: black;
 }
 a:hover {
-  color: floralwhite;
+  color: red;
 }
 a:active {
-  color: whitesmoke;
+  color: red;
 }
-li a:hover:not (.active) {
-  background-color: maroon;
-} /* note: not really sure about these 2 last things for li a */
 .active {
   background-color: #009933;
 }
