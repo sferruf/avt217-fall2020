@@ -14,9 +14,10 @@ body {
 .head {
   position: absolute;
   background-color: #6E4000;
-  top: 0px;
-  width: 225px;
-  height: 200px;
+  top: 30px;
+  left: -40px;
+  width: 200px;
+  height: 180px;
   border-radius: 50%;
   transform: rotate(10deg)   /*border-bottom-left-radius: 180px;
     border-bottom-right-radius: 180px;*/
@@ -24,8 +25,8 @@ body {
 .ear {
   position: absolute;
   background-color: #6E4000;
-  top: -20px;
-  left: 15px;
+  top: 0px;
+  left: 0px;
   width: 70px;
   height: 60px;
   border-radius: 240% 220% 70% 220%;
@@ -33,8 +34,8 @@ body {
 .ear_right {
   position: absolute;
   background-color: #6E4000;
-  top: -5px;
-  right: -25px;
+  top: 0px;
+  right: 0px;
   width: 70px;
   height: 60px;
   border-radius: 200% 220% 220% 200%;
@@ -42,8 +43,8 @@ body {
 .inner {
   position: absolute;
   background-color: #402602;
-  top: 10px;
-  left: 10px;
+  top: 0px;
+  left: 0px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -51,19 +52,16 @@ body {
 .inner_right {
   position: absolute;
   background-color: #402602;
-  top: 10px;
-  right: 13px;
+  top: 0px;
+  right: 0px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-.face {
-  position: absolute;
-}
 .eye {
   position: absolute;
-  top: 75px;
-  left: 90px;
+  top: 40px;
+  left: 40px;
   background: black;
   width: 15px;
   height: 15px;
@@ -71,8 +69,8 @@ body {
 }
 .eye_right {
   position: absolute;
-  top: 5px;
-  right: -30px;
+  top: 40px;
+  right: 40px;
   background: black;
   width: 15px;
   height: 15px;
@@ -81,8 +79,8 @@ body {
 .mouth_container {
   position: absolute;
   background-color: #F7E3BA;
-  top: 16px;
-  left: -10px;
+  top: 0px;
+  left: 0px;
   width: 55px;
   height: 70px;
   border-radius: 90%;
@@ -90,8 +88,8 @@ body {
 }
 .nose {
   position: absolute;
-  top: 10px;
-  left: 14px;
+  top: 0px;
+  left: 0px;
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
   border-top: 13px solid black;
@@ -103,27 +101,27 @@ body {
   width: 3px;
 }
 .line1 {
-  top: 22px;
-  left: 26px;
+  top: 0px;
+  left: 0px;
   height: 12px;
 }
 .line2 {
-  top: 32px;
-  left: 21px;
+  top: 0px;
+  left: 0px;
   height: 17px;
   transform: rotate(35deg)
 }
 .line3 {
-  top: 33px;
-  left: 29px;
+  top: 0px;
+  left: 0px;
   height: 10px;
   transform: rotate(-35deg)
 }
 .body {
   position: absolute;
   background-color: #6E4000;
-  top: 60px;
-  left: -50px;
+  top: 0px;
+  left: 0px;
   width: 180px;
   height: 250px;
   border-radius: 50%;
