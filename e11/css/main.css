@@ -211,9 +211,13 @@ body {
   left: 320px;
   width: 500px;
   height: 150px;
-  border-left: 50px;
-  border-right: 10px;
-  border-bottom: 10px;
-  border-top: 10px;
-  border-radius: 10%;
+  border-radius: 0%;
+}
+.tip {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  border-left: 100px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 150px solid #FFEC19;
 }
