@@ -1,64 +1,99 @@
 * {
   box-sizing: border-box;
 }
+@media only screen and (max-width: 1000px) {
+  .hero {
+    padding: 50px 50px;
+  }
+  .col {
+    width: 100%;
+  }
+  .col-margin {
+    margin: 0;
+  }
+}
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  color: black;
-  background-color: #D0AE75;
-  text-align: center;
+  background-color: #FFFDED;
+  /*background-color: #D0AE75;*/
   margin: 0px;
-  line-height: 40px;
-  line-spacing: 15px;
+
 }
 header {
-  font-family: 'Playfair Display', serif;
+  background-color: #D0AE75;
+  display: flow-root;
+  padding: 10px 50px;
+  position: relative;
+}
+.title h1 a, h1 a:link, h1 a: visited {
   color: black;
-  background-color: #FFFDED;
-  /*display: flow-root;
-  padding: 10px 50px; */
+}
+.title h1 a, h1 a:hover, h1 a: active {
+  color: white;
 }
 nav {
-  text-align: right;
-  margin: 0px;
+  float: right;
+  margin: 15px;
 }
-.border {
-  width: 1600px;
-  height: 75px;
+nav a, nav a:link, nav a:visited {
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
 }
-.green {
-  background-color: #1FAD1A;
-  float: left;
-  width: 500px;
-  height: 75px;
-}
-.white {
-  background-color: white;
-  float: left;
-  width: 500px;
-  height: 75px;
-}
-.red {
-  background-color: #E61B1B;
-  float: left;
-  width: 500px;
-  height: 75px;
-}
-h2 {
-  font-family: 'Playfair Display', serif;
+nav a, nav a:hover, nav a:active {
   color: white;
-  text-align: center;
 }
-h3 {
-  font-family: 'Playfair Display', serif;
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin-left: 25px;
+}
+.hero {
+  background: url(../images/pasta1.2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+.hero h1 {
+  font-size: 6rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: whitesmoke;
+}
+.row {
+  display: flow-root;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.col {
+  width: calc(50% - 12.5px);
+  float: left;
+}
+.col h2{
+  font-family:
   color: black;
   text-align: center;
 }
-h4 {
-
+.col p{
+  font-family:
+  color: black;
+  text-align: center;
 }
-h5{
-
+.col-margin {
+  margin-right: 25px;
+}
+.col img {
+  width: 100%;
+}
+.sectionbreak {
+  padding: 150px 100px;
+}
+.sectionbreak p {
+  font-size: 30px;
+  color: black;
+  text-align: center;
 }
   /*#menu {
     font-family: 'Roboto', sans-serif;
@@ -70,49 +105,9 @@ h5{
 }*/
 footer {
   background-color: #817650;
-  font-family: 'Roboto', sans-serif;
-  font-weight: Bold 700;
-  font-size: 30px;
-  color: white;
-  height: 200px
+  padding: 50px 100px;
+}
+footer p {
+  color: whitesmoke;
   text-align: center;
-}
-img {
-  max-width: 100%;
-}
-ul {
-  margin: 20px;
-  padding: 5px;
-  float: left;
-}
-li {
-  float: left;
-  display: inline;
-}
-li a {
-  padding: 8px;
-}
-a {
-  text-decoration: none; /* this gets rid of the default underline */
-  font-family: 'Playfair Display', serif;
-  color: black;
-}
-a:link {
-  color: black;
-}
-a:visited {
-  color: black;
-}
-a:hover {
-  color: red;
-}
-a:active {
-  color: red;
-}
-.active {
-  background-color: #009933;
-}
-.hero {
-  background: url(images/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
 }
