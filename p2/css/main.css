@@ -59,12 +59,12 @@ li {
   float: left;
   margin-left: 25px;
 }
-.hero {
+#home .hero {
   background: url(../images/pasta1.2.jpg) no-repeat center center;
   background-size: cover;
   padding: 250px 100px;
 }
-.hero h1 {
+#home .hero h1 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   font-size: 10rem;
@@ -72,15 +72,6 @@ li {
   margin-bottom: 25px;
   text-align: center;
   color: whitesmoke;
-}
-#menu h1 {
- font-family: 'Open Sans Condensed', sans-serif;
- font-weight: 300;
- font-size: 10rem;
- letter-spacing: 15px;
- margin-bottom: 25px;
- text-align: center;
- color: whitesmoke;
 }
 .blog {
   display: flow-root;
@@ -178,6 +169,15 @@ font-style: normal;*/
   background-size: cover;
   padding: 250px 100px;
 }
+#menu h1 {
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-weight: 300;
+ font-size: 10rem;
+ letter-spacing: 15px;
+ margin-bottom: 25px;
+ text-align: center;
+ color: whitesmoke;
+}
 #menu .section{
   background-color: blue;
   width: 50%;
@@ -203,6 +203,6 @@ font-style: normal;*/
   background-size: cover;
   padding: 250px 100px;
 }
-#about {
-
+#about .img {
+  width: 100%;
 }
