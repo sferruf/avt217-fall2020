@@ -179,9 +179,13 @@ font-style: normal;*/
  color: whitesmoke;
 }
 #menu .section{
+  width: 500px;
+  height: 650px;
   background-color: blue;
   width: 50%;
   float: left;
+  margin: 20px;
+  padding: 10px 10px;
 }
 @media screen and (max-width: 530px) {
   .section {
