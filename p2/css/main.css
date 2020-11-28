@@ -73,6 +73,15 @@ li {
   text-align: center;
   color: whitesmoke;
 }
+#menu h1 {
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-weight: 300;
+ font-size: 10rem;
+ letter-spacing: 15px;
+ margin-bottom: 25px;
+ text-align: center;
+ color: whitesmoke;
+}
 .blog {
   display: flow-root;
   width: 100vw;
@@ -145,4 +154,55 @@ footer p {
   letter-spacing: 5px;
   color: white;
   text-align: center;
+}
+/*font-family: fino-sans, sans-serif;
+font-weight: 400;
+font-style: normal;*/
+#menu .hero{
+  background: url(../images/restaurant_interior.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+#menu .hero2{
+  background: url(../images/cakes.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+#menu .hero3{
+  background: url(../images/coffee.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+#menu .hero4{
+  background: url(../images/pizza2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+#menu .section{
+  background-color: blue;
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 530px) {
+  .section {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+.underline{
+  width: 10px;
+  height: 2px;
+  color: black;
+}
+#events .hero {
+  background: url(../images/person.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+#events .hero2 {
+  background: url(../images/people2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+#about {
+
 }
