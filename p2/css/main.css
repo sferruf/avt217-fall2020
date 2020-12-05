@@ -135,9 +135,10 @@ p a, p a:hover, p a:active {
 
 }
 footer {
+  height: 300px;
   background-color: #817650;
   padding: 50px 100px;
-  margin-top: 180px;
+  margin: 180px;
 }
 footer p {
   font-family: 'Roboto', sans-serif;
@@ -159,7 +160,7 @@ font-style: normal;*/
   background-size: cover;
   padding: 250px 100px;
 }
-#menu .hero3{
+/*#menu .hero3{
   background: url(../images/coffee.jpg) no-repeat center center;
   background-size: cover;
   padding: 250px 100px;
@@ -168,7 +169,7 @@ font-style: normal;*/
   background: url(../images/pizza2.jpg) no-repeat center center;
   background-size: cover;
   padding: 250px 100px;
-}
+}*/
 #menu h1 {
  font-family: 'Open Sans Condensed', sans-serif;
  font-weight: 300;
@@ -182,7 +183,7 @@ font-style: normal;*/
   width: 500px;
   height: 650px;
   background-color: blue;
-  width: 50%;
+  width: 100%;
   float: left;
   margin: 20px;
   padding: 10px 10px;

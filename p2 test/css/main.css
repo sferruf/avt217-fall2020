@@ -1,1 +1,37 @@
-
+* {
+  box-sizing: border-box;
+}
+@-ms-viewport{
+  width: device-width;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+#menu h1 {
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-weight: 300;
+ font-size: 10rem;
+ letter-spacing: 15px;
+ margin-bottom: 25px;
+ text-align: center;
+ color: whitesmoke;
+}
+#menu h2{
+  text-decoration: underline;
+}
+#menu .section{
+  width: 250px;
+  height: 650px;
+  background-color: blue;
+  width: 50%;
+  float: left;
+  margin: 10px;
+  padding: 35px;
+}
+@media screen and (max-width: 500px) {
+  .section {
+    width: 100%;
+    margin-bottom: 50px;
+}
