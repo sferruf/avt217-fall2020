@@ -149,10 +149,9 @@ p a, p a:hover, p a:active {
 
 }
 footer {
+  width: 100%;
   height: 300px;
   background-color: #817650;
-  padding: 50px 100px;
-  margin: 180px;
 }
 footer p {
   font-family: 'Roboto', sans-serif;
@@ -235,17 +234,15 @@ font-style: normal;*/
 #menu .column{
   max-width: 100%;
   height: 700px;
-  background-color: blue;
   width: 90vw;
   float: left;
-  margin: 20px auto;
+  margin: auto;
   /*margin-left: 60px;*/
   padding: 10px 10px;
 }
 #menu .section{
   max-width: 100%;
   height: 700px;
-  background-color: yellow;
   float: left;
   margin: 30px;
   padding: 20px 20px;
@@ -254,12 +251,14 @@ font-style: normal;*/
 #menu .part{
   /*width: 100%;
   height: auto;*/
-  background-color: green;
   display: flow-root;
   width: 100vw;
   margin: 10px auto;
   padding: 10px auto;
   text-align: center;
+}
+#menu main{
+  display: flow-root;
 }
 #menu .part img{
   max-width: 100%;
@@ -270,16 +269,15 @@ font-style: normal;*/
   width: 100%;
 }
 #menu .break{
- background-color: red;
  margin: 20px;
  padding: 50px;
 }
-/*@media screen and (max-width: 1900px) {
-  .section {
+@media screen and (max-width: 1900px) {
+  #menu .column {
     width: 100%;
     margin-bottom: 50px;
   }
-}*/
+}
 #events .hero {
   background: url(../images/person.jpg) no-repeat center center;
   background-size: cover;
