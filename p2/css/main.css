@@ -1,14 +1,28 @@
 * {
   box-sizing: border-box;
 }
+@-ms-viewport{
+  width: device-width;
+}
 @media only screen and (max-width: 2000px) {
   .hero {
     padding: 50px 50px;
   }
-  .img {
-    max-width: 100%;
-    /*background-color: blue;*/
+  #menu .hero, .hero2, {
+    padding: 50px 50px;
   }
+  .img {
+    max-width: 100%
+  }
+  #about .img{
+    max-width: 100%;
+    height: auto;
+  }
+  #menu .img{
+    max-width: 100%;
+    height: auto;
+  }
+}
 /*  header {
     position: relative;
   }*/
@@ -23,8 +37,7 @@
 body {
   background-color: #FFFDED;
   /*background-color: #D0AE75;*/
-  margin: 0px;
-
+  margin: auto;
 }
 header {
   background-color: #D0AE75;
@@ -77,9 +90,8 @@ li {
   display: flow-root;
   width: 100vw;
   margin: 10px auto;
-  padding: 10px 0;
+  padding: 10px auto;
   text-align: center;
-  /*background-color: purple;*/
 }
 .blog img {
   max-width: 100%;
@@ -93,7 +105,9 @@ li {
   /*background-color: yellow;*/
 }
 .post h2{
-  font-family:
+  font-family: 'fino-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: black;
   font-size: 50px;
   text-align: center;
@@ -150,24 +164,37 @@ footer p {
 /*font-family: fino-sans, sans-serif;
 font-weight: 400;
 font-style: normal;*/
+
 #menu .hero{
-  background: url(../images/restaurant_interior.jpg) no-repeat center center;
+  background: url(../images/restaurant_interior.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   padding: 250px 100px;
 }
 #menu .hero2{
-  background: url(../images/cakes.jpg) no-repeat center center;
+  background: url(../images/cakes.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   padding: 250px 100px;
 }
 /*#menu .hero3{
-  background: url(../images/coffee.jpg) no-repeat center center;
+  background: url(../images/coffee.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   padding: 250px 100px;
 }
 #menu .hero4{
-  background: url(../images/pizza2.jpg) no-repeat center center;
+  background: url(../images/pizza2.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   padding: 250px 100px;
 }*/
 #menu h1 {
@@ -178,26 +205,81 @@ font-style: normal;*/
  margin-bottom: 25px;
  text-align: center;
  color: whitesmoke;
+
 }
-#menu .section{
-  width: 500px;
-  height: 650px;
+#menu h2{
+  font-family: 'fino sans', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: black;
+  text-align: left;
+  line-height: 35px;
+  text-decoration: underline;
+}
+#menu h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  line-height: 40px;
+}
+#menu p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  line-height: 25px;
+}
+#menu .column{
+  max-width: 100%;
+  height: 700px;
   background-color: blue;
-  width: 100%;
+  width: 90vw;
   float: left;
-  margin: 20px;
+  margin: 20px auto;
+  /*margin-left: 60px;*/
   padding: 10px 10px;
 }
-@media screen and (max-width: 530px) {
+#menu .section{
+  max-width: 100%;
+  height: 700px;
+  background-color: yellow;
+  float: left;
+  margin: 30px;
+  padding: 20px 20px;
+  display: flow-root;
+}
+#menu .part{
+  /*width: 100%;
+  height: auto;*/
+  background-color: green;
+  display: flow-root;
+  width: 100vw;
+  margin: 10px auto;
+  padding: 10px auto;
+  text-align: center;
+}
+#menu .part img{
+  max-width: 100%;
+}
+#menu .part h1{
+  top: auto;
+  left: 0;
+  width: 100%;
+}
+#menu .break{
+ background-color: red;
+ margin: 20px;
+ padding: 50px;
+}
+/*@media screen and (max-width: 1900px) {
   .section {
     width: 100%;
     margin-bottom: 50px;
   }
-.underline{
-  width: 10px;
-  height: 2px;
-  color: black;
-}
+}*/
 #events .hero {
   background: url(../images/person.jpg) no-repeat center center;
   background-size: cover;
@@ -208,6 +290,41 @@ font-style: normal;*/
   background-size: cover;
   padding: 250px 100px;
 }
-#about .img {
-  width: 100%;
+#events h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 10rem;
+  letter-spacing: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: whitesmoke;
+}
+#events h2{
+  font-family: 'fino-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ #events .break{
+  text-align: center;
+  margin: 100px;
+  margin-bottom: 250px;
+  padding: 50px;
+}
+#events .paragraph p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: Light 300;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  line-height: 25px;
+}
+#events .paragraph, .contact {
+  margin: 20px;
+  padding: 10px;
+}
+#about h2{
+  font-family: 'fino-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }

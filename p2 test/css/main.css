@@ -21,10 +21,19 @@ main {
 #menu h2{
   text-decoration: underline;
 }
-#menu .section{
+/*#menu .section{
   width: 250px;
   height: 650px;
   background-color: blue;
+  width: 50%;
+  float: left;
+  margin: 10px;
+  padding: 35px;
+}*/
+#menu .column{
+  width: 500px;
+  height: 650px;
+  background-color: yellow;
   width: 50%;
   float: left;
   margin: 10px;
@@ -34,4 +43,16 @@ main {
   .section {
     width: 100%;
     margin-bottom: 50px;
+}
+  .column {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+#menu .whole {
+  width: 1000px;
+  height: 3000px;
+  background-color: red;
+  float: left;
+  margin: 30px;
+  padding: 40px;
 }
